@@ -1,0 +1,24 @@
+#contenedor {
+    max-width: 80%;
+    margin: 2em auto;
+}
+
+.caja {
+    width: 20%;
+    padding-top: 14%;
+    background-color: grey;
+    float: left;
+    margin: 1em;
+    transition: 0.2s;
+}
+
+.caja p {
+    display: none;
+}
+
+.esconderCarta {
+    transform: rotateY(180deg);
+    background-image: url("26606208-grey-background-texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
